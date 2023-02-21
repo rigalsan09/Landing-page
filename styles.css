@@ -107,7 +107,7 @@ button {
 }
 
 .imageplacer {
-    height: 160px;
+    height: 150px;
     background-color: #F9FAF8;
     border: 3px solid #3882F6;
     border-radius: 12px;
@@ -139,6 +139,7 @@ blockquote p {
     margin: 0;
     color: #1F2937;
 }
+
 blockquote #author {
     font-size: 24px;
     font-weight: 600;
@@ -150,7 +151,7 @@ blockquote #author {
 
 .sectionCTA {
     background-color: white;
-    padding: 150px 350px; 
+    padding: 150px 300px; 
     display: flex;
     justify-content: center;
     align-content: center;
@@ -169,6 +170,7 @@ blockquote #author {
 .describe,h2, p {
     margin: 8px;
     color: white;
+    flex: 2;
 }
 
 button.secondaryButton {
@@ -176,11 +178,10 @@ button.secondaryButton {
     border: solid 1px white;
     border-radius: 8px;
     background-color: #eee;
-    padding: .5rem  2.5rem;
+    padding: .5rem  1.5rem;
     background-color: #3882F6;
     font-size: 18px;
     color: #F9FAF8;
-    width: fit-content;
 }
 
 footer {
